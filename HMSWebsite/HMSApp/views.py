@@ -63,6 +63,10 @@ class LoginView(View):
 				error_msg = "Wrong Login Credentials! "
 				return render(request, "HMSApp/login.html", {'error_msg': error_msg})
 
+		else:
+			error_msg = "Wrong Login Credentials! "
+			return render(request, "HMSApp/login.html", {'error_msg': error_msg})			
+
 
 
 class LogoutView(View):

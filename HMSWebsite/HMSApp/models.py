@@ -7,12 +7,19 @@ from django.db import models
 
 class Student(models.Model):
 	# id = models.IntegerField(primary_key=True)
+
+	COURSE_CHOICES = (
+    ('BTech', 'BTech'),
+    ('MTech', 'MTech'),
+    ('PhD', 'PhD'),
+	)
+
 	user = models.OneToOneField(User, models.CASCADE)
 	reg_no = models.CharField(max_length=10, blank=True)
 	branch = models.CharField(max_length=20,blank=True)
 	first_name = models.CharField(max_length=50,blank=True)
 	last_name = models.CharField(max_length=50,blank=True)
-	course = models.CharField(max_length=10,blank=True)
+	course = models.CharField(max_length=10,blank=True, choices=COURSE_CHOICES)
 	year = models.IntegerField(blank=True, null=True)
 
 	def __str__(self):
@@ -43,7 +50,8 @@ class Complaint(models.Model):
 	status = models.CharField(max_length=50)
 	student = models.ForeignKey(Student, on_delete=models.CASCADE)
 	date = models.DateTimeField(auto_now_add=True, null=True)
-
+	def __str__(self):
+		return self.subject
 
 class RoomAllotment(models.Model):
 	student = models.ForeignKey(Student, on_delete=models.CASCADE)
@@ -61,3 +69,5 @@ class NoticeBoard(models.Model):
 	subject = subject = models.CharField(max_length=255)
 	notice = models.TextField()
 	date = models.DateTimeField(auto_now_add=True)
+	def __str__(self):
+		return self.subject
