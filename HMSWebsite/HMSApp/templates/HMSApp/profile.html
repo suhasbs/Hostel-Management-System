@@ -1,5 +1,5 @@
 {% extends 'HMSApp/index.html' %}
-
+{% load extra_filters %}
 {% block dashboard %}
 
 	<div class="row page-titles">
@@ -14,19 +14,26 @@
             </div>
 	<form method="POST" action="">
 	{% csrf_token %}
-	<table>	
-	<tr>
-	<td>Username</td><td><input type='text' value='{{ request.user.username }} ' disabled>
+	 
+	<div class='form-group row'>
+	<label for="staticEmail" class="col-sm-2 col-form-label">Username</label>
+	<div class="col-sm-5">
+	<input class='form-control' type='text' value='{{ request.user.username }} ' disabled>
+	</div>
+	</div>
+
 	{% for element in form %}
-	<tr>
-
-		<td>{{ element.label_tag }}</td><td>{{ element }}</td>
-		
-	</tr>
-	{% endfor %}
-	</table>
-	<input type="submit" name="">
-	</form>
-
 	
+	<div class='form-group row '>
+		<label for="staticEmail" class="col-sm-2 col-form-label">{{ element.label }}</label>
+		<div class="col-sm-5">{{ element|addcss:"form-control" }}</div>
+	</div>	
+	
+	{% endfor %}
+	
+	<input type="submit" class='btn btn-success' name="">
+
+	</form>
+	<br>
+	<a href="/change_password"><button class="btn btn-primary">Change Password</button></a>
 {%  endblock %}

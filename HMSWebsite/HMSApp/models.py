@@ -50,5 +50,14 @@ class RoomAllotment(models.Model):
 	preferred_block = models.ForeignKey(HostelBlock, on_delete=models.CASCADE, related_name='preference')
 	allotted_block = models.ForeignKey(HostelBlock, on_delete=models.CASCADE, related_name='allotted', null=True)
 	status = models.CharField(max_length=50)
+	room_no = models.IntegerField(null=True)
 	date = models.DateTimeField(auto_now_add=True, null=True)
 
+	def __str__(self):
+		return str(self.student)+' - '+str(self.preferred_block)
+
+
+class NoticeBoard(models.Model):
+	subject = subject = models.CharField(max_length=255)
+	notice = models.TextField()
+	date = models.DateTimeField(auto_now_add=True)

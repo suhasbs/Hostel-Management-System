@@ -1,4 +1,5 @@
 {% extends 'HMSApp/index.html' %}
+{% load extra_filters %}
 {% block dashboard %}
 	<div class="row page-titles">
 	    <div class="col-md-6 col-8 align-self-center">
@@ -20,7 +21,7 @@
                      <div class="row">
                       <div class="col-sm">
 
-                      <a href='#'>
+                      
                         <div class="card" >
                             <div class="card-block">
                                 <h4 class="card-title">Request for {{ req.preferred_block }}</h4>
@@ -38,8 +39,14 @@
                                 </div>
                                 <div class="text-right" style='display: inline-block; float: right'>
 
-                                    <h2 class="font-light m-b-0"><i class="ti-info-alt text-success"></i> Status</h2>
-                                    <span class="text-muted">{{req.status}} {{req.allotted_block}}</span>
+                                    <h2 class="font-light m-b-0"><i class="ti-info-alt text-{%  if req.status == 'Approval Pending' %}danger{% else %}success{% endif %}"></i> Status</h2>
+                                    <span class="text-muted">{{req.status}} {% if req.allotted_block %}{{req.allotted_block}}
+                                    {% endif %}
+                                    </span>
+                                    {% if req.room_no %}
+                                    <br>
+                                    <span class="text-muted">Room no: {{req.room_no}}</span>
+                                    {% endif %}
                                 </div>
                                 
                                 </div>
@@ -51,16 +58,18 @@
                                     <span class="text-muted">{{req.date.date}}</span>
                                 </div>
                                 <div class="text-right" style='display: inline-block; float: right'>
-
+                                {% if req.status == 'Approval Pending' %}
                                    <form method="POST" action="/hms/applications/{{ req.pk }}/">
+                                
                                 {% csrf_token %}
                                     <div class='text-right'>
                                         Allot Block<br>
-                                        {{ form.allotted_block }}<br>
-                                        <input type='submit' value="Mark as Approved">
+                                        {{ form.allotted_block|addcss:"form-control" }}<br><br> 
+                                        <input type='submit' class='btn btn-success' value="Mark as Approved">
                                         
                                     </div>
                                 </form>
+                                {% endif %}
                                 </div>
                               	
                                 
@@ -73,7 +82,7 @@
                             </div>
                         </div>
                         </div>
-                      </a>  
+                      
                      </div>
                      </div>
                      {% endfor %}
@@ -81,8 +90,8 @@
                     </div>
                     <!-- Column -->
                     <!-- Column -->
-                    <div class="col-sm-4">
-                        <div class="card">
+                    <div class="col-sm-4" >
+                        <div class="card" style="position: fixed; float: right;">
                             <div class="card-block">
                                 <h4 class="card-title">Vacancy</h4>
                                 <!-- <div class="text-right">

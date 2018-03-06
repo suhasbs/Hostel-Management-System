@@ -10,6 +10,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from .models import *
 from .forms import *
+from django.contrib.auth import update_session_auth_hash
 
 # Create your views here.
 
@@ -53,7 +54,7 @@ class LoginView(View):
 						# print request.user.student
 						request.session['user_type'] = "student"
 					if hasattr(request.user,"hosteladmin"):
-						request.session['user_type'] = "admin"
+						request.session['user_type'] = "hosteladmin"
 					if(request.GET.get('next')):
 						print "Here"
 						return redirect(request.GET['next'])
@@ -72,6 +73,33 @@ class LogoutView(View):
 		
 
 
+class ChangePasswordView(View):
+
+	form_class = ChangePasswordForm
+	def get(self, request):
+		form = self.form_class()
+		
+		return render(request, 'HMSApp/change_password.html', {'form':form})
+	def post(self, request):
+		form = self.form_class(request.POST)
+		if form.is_valid():
+			# print form.cleaned_data['new_password']
+			if form.cleaned_data['new_password'] != form.cleaned_data['confirm_password']:
+				error_msg = 'New Password and Confirm Password Fields do not match!'
+				return render(request, 'HMSApp/change_password.html', {'error_msg':error_msg, 'form':form,'color':'red'})
+
+
+			if request.user.check_password(form.cleaned_data['old_password']):
+				request.user.set_password(form.cleaned_data['new_password'])
+				request.user.save()
+				update_session_auth_hash(request, request.user)  
+				return render(request, 'HMSApp/change_password.html', {'error_msg':'Password Changed Successfully', 'form':self.form_class(),'color':'green'})
+			else:
+				error_msg = 'Wrong Password! Please enter your correct password'
+				return render(request, 'HMSApp/change_password.html', {'error_msg':error_msg, 'form':form, 'color':'red'})
+		else:
+			print "Form invalid"
+
 #only for student
 class RoomAllotmentView(View):
 
@@ -79,7 +107,7 @@ class RoomAllotmentView(View):
 		form = ProfileForm(instance=request.user.student)
 		room_preference_form = RoomAllotmentForm
 		request_status = RoomAllotment.objects.filter(student=request.user.student)
-		print request_status[0].preferred_block
+		# print request_status[0].preferred_block
 		return render(request, 'HMSApp/room_allotment.html', {'form':form, 'preference_form':room_preference_form, 'request_status':request_status})
 
 	def post(self, request):
@@ -96,13 +124,13 @@ class RoomAllotmentView(View):
 
 class ProfileView(View):
 
-	
+	@method_decorator(login_required)
 	def dispatch(self, *args, **kwargs):
 		if self.request.session['user_type']=="student":
 			print self.request.session['user_type']
 			self.form_class = ProfileForm
-		if self.request.session['user_type']=="admin":	
-			self.form_class = ProfileForm
+		if self.request.session['user_type']=="hosteladmin":	
+			self.form_class = ProfileFormAdmin
 		return super(ProfileView, self).dispatch(*args, **kwargs)
 
 	def get(self, request):
@@ -154,11 +182,52 @@ class AllApplicationsView(View):
 		obj = RoomAllotment.objects.get(pk=int(kwargs['req_id']))
 		form = RoomAllotmentFormAdmin(request.POST,instance=obj)
 		appl = form.save(commit=False)
+		if appl.status == "Approval Pending":
+			appl.allotted_block.allotted_rooms +=1
+			appl.room_no = appl.allotted_block.allotted_rooms
+			appl.allotted_block.save()
 		appl.status = "Approved"
-		appl.allotted_block.allotted_rooms +=1
-		appl.allotted_block.save()
 		appl.save()
 		all_applications = RoomAllotment.objects.all()
 		return redirect("/hms/applications/")
 		
 
+class NoticeBoardView(View):
+	form_class = NoticeBoardForm
+	def get(self, request):
+		form = self.form_class
+		all_notices = NoticeBoard.objects.all().order_by('-date')
+		return render(request, 'HMSApp/notice_board.html', {'form':form,'notices':all_notices} )
+
+	def post(self, request):
+		form = self.form_class(request.POST)
+		notice = form.save(commit=False)
+		notice.save()
+		return redirect('/hms/notice_board')
+
+
+class AllComplaintsView(View):
+	def get(self, request):
+		
+		all_complaints = Complaint.objects.all()
+		# hostel_blocks = HostelBlock.objects.all()
+		return render(request, 'HMSApp/all_complaints.html', {'all_complaints':all_complaints})
+
+	def post(self, request, **kwargs):
+		# print type(int(kwargs['req_id']))
+		# obj = RoomAllotment.objects.get(pk=int(kwargs['req_id']))
+		# obj.status = "Approved"
+		# obj.save()
+		obj = Complaint.objects.get(pk=int(kwargs['req_id']))
+		# form = RoomAllotmentFormAdmin(request.POST,instance=obj)
+		obj.status = "Addressed"
+		obj.save()
+		return redirect("/hms/all_complaints/")
+
+
+class DownloadRoomAllotmentView(View):
+
+	def get(self, request):
+		student = request.user.student
+		room_allotted = RoomAllotment.objects.filter(student=student)[0]
+		return render(request, 'HMSApp/room_allotment_letter.html', {'student':student, 'room_allotted':room_allotted})

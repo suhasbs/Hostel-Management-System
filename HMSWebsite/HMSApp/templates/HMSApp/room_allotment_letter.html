@@ -1,0 +1,278 @@
+
+
+
+<style>
+    * {
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    div {
+        padding: 5px;
+    }
+
+    .xs {
+        font-size: 10px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .details {
+        font-family: cnew;
+        font-size: 20px;
+    }
+
+    table {
+        table-layout: fixed;
+    }
+
+    table>tr>td,
+    table>tr>td,
+    table>tr>td {
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .header-css {
+        width: 100%;
+    }
+
+    .img-area {
+        max-width: 100px;
+        float: left;
+    }
+
+    * {
+        letter-spacing: 0.9px;
+    }
+
+    table,
+    td,
+    th {
+        border: 1px solid black;
+        margin-left: 5px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th {
+        text-align: left;
+    }
+
+</style>
+
+<div>
+  <div style="position:relative; overflow: hidden; margin-top:-10px">
+    <div class="header-css" style="width:70%; float:left;">
+
+      <div class="title-area" style="padding-left: 0;">
+        <table style="border: 0;margin-left: 0;">
+          <tbody style="border: 0;">
+          <tr style="border: 0;">
+            <td style="border: 0;" width="100">
+              <img src="https://cdn.iris.nitk.ac.in/logo.png" height="100">
+            </td>
+            <td style="border: 0;" width="400">
+              <h4 align="center" style="font-size: 12px;">NATIONAL INSTITUTE OF TECHNOLOGY KARNATAKA , SURATHKAL
+              </h4>
+              <h4 align="center" style="line-height: 1px;font-size: 12px;">P.O. SRINIVASNAGAR, MANGALORE</h4>
+              <h4 align="center" style="font-size: 12px;text-decoration: underline;font-weight:bold;">Application for Admission and Allotment of Room in the Hostel</h4>
+            </td>
+          </tr>
+          </tbody></table>
+      </div>
+    </div>
+    <!-- <div style="border:1px solid black;height: 142px;width: 110px;float:right;">
+          <img width="110px" src="https://iris.nitk.ac.in/hrms/students/get_profile_pic/1546?1482655696" alt="1546?1482655696" />
+    </div> -->
+  </div>
+
+
+  <div style="margin-top: -20px">
+
+
+    <h3 align="left" style="padding-top:15px;line-height: 1px;font-size: 12px;text-decoration: underline;font-weight:bold;">A. STUDENT DETAILS</h3>
+
+
+    <table>
+      <tr>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Name: </td>
+        <td style="width: 75%;font-size: 11px;padding: 5px;border-top: 0px;">{{ student.first_name }} {{ student.last_name }}  </td>
+      </tr>
+    </table>
+
+    <table style="border-top: 0px">
+      <!-- <tr>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Email:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">suhasbs.nitk@gmail.com</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Aadhaar No:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">
+              4702-4674-6933
+        </td>
+      </tr> -->
+    </table>
+
+    <table style="border-top: 0px">
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Roll Number:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">{{student.reg_no}}</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Registration Number:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;"></td>
+      </tr>
+    </table>
+
+
+   <!--  <table style="border-top: 0px">
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Category (OC/OB/SC/ST):</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">General</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Whether PwD (Yes/No):</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">No</td>
+      </tr>
+    </table> -->
+
+
+    <table style="border-top: 0px">
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Branch:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">{{student.branch}}</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Year:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">{{student.year}}</td>
+      </tr>
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Block Number:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">{{room_allotted.allotted_block}}</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Room Number:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">{{room_allotted.room_no}}</td>
+      </tr>
+
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Occupancy:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">{{room_allotted.allotted_block.occupancy}}</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Mess Allotted:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;"></td>
+      </tr>
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Phone:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;"></td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Course:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">{{student.course}}</td>
+      </tr>
+
+      <!-- <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Blood Group:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">B+</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Date of Birth:</td>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">20-03-1997</td>
+      </tr> -->
+    </table>
+
+
+    <!-- <h3 align="left" style="padding-top:15px;line-height: 1px;font-size: 12px;text-decoration: underline;margin-top: 5px;font-weight:bold;">B. PARENT/ LOCAL GUARDIAN DETAILS:</h3>
+
+
+    <table>
+      <tr style="border-top: 0px">
+        <td style="width: 30%;font-size: 11px;padding: 5px;border-top: 0px;">Name of the Parent:</td>
+        <td style="width: 70%;font-size: 11px;padding: 5px;border-top: 0px;">
+              
+        </td>
+      </tr>
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Phone Number of the Parent:</td>
+        <td style="width: 75%;font-size: 11px;padding: 5px;border-top: 0px;"></td>
+      </tr>
+      <tr>
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Email:</td>
+        <td style="width: 75%;font-size: 11px;padding: 5px;border-top: 0px;">srinivasranagarao@yahoo.co.in</td>
+      </tr>
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Home Address:</td>
+        <td style="width: 75%;font-size: 11px;padding: 5px;border-top: 0px;">#537, 32ND CROSS, 4TH BLOCK, JAYANAGAR, BANGALORE - 560 011</td>
+      </tr>
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Name of the Local Guardian:</td>
+        <td style="width: 75%;font-size: 11px;padding: 5px;border-top: 0px;">B R SRINIVAS</td>
+      </tr>
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Phone No. of the Local Guardian:</td>
+        <td style="width: 75%;font-size: 11px;padding: 5px;border-top: 0px;"></td>
+      </tr>
+
+      <tr style="border-top: 0px">
+        <td style="width: 25%;font-size: 11px;padding: 5px;border-top: 0px;">Local Guardian Address:</td>
+        <td style="width: 75%;font-size: 11px;padding: 5px;border-top: 0px;"> - </td>
+      </tr>
+
+    </table> -->
+
+    <h3 align="left" style="padding-top:15px;line-height: 1px;font-size: 12px;text-decoration: underline;margin-top: 5px;font-weight:bold;">B. OTHER DETAILS:</h3>
+
+    <table>
+      <tr>
+        <td style="width: 50%;font-size: 11px;padding: 5px;border-top: 0px;">Whether he was in the hostel last year and if so, whether he has withdrawn the deposit: </td>
+        <td style="width: 50%;font-size: 11px;padding: 5px;border-top: 0px;">
+      </tr>
+      <tr>
+        <td style="width: 50%;font-size: 11px;padding: 5px;border-top: 0px;">Institute fee paid, receipt number and date:</td>
+        <td style="width: 50%;font-size: 11px;padding: 5px;border-top: 0px;">
+             
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 50%;font-size: 11px;padding: 5px;border-top: 0px;">Hostel fee paid, receipt number and date:</td>
+        <td style="width: 50%;font-size: 11px;padding: 5px;border-top: 0px;">
+        </td>
+      </tr>
+    </table>
+  </div>
+  <br/>
+  <div>
+    <h3 align="left" style="line-height: 2px;font-size: 12px;text-decoration: underline;margin-top: 3px;font-weight:bold;">
+      DECLARATION :
+    </h3>
+    <ul style="margin-top: -5px;">
+      <li align="left" style="line-height: 20px;font-size: 11px;">
+        I hereby declare that I have pursued and understood the Rules and Regulations of the Hostel and shall abide by those rules and regulations as also the directions of the hostel authorities.
+      </li>
+      <li align="left" style="line-height: 20px;font-size: 11px;">
+        I hereby undertake not to allow any unauthorized persons to stay in my room and in the event of any breach this condition, I hereby undertake lo pay the full damages of this account..
+      </li>
+      <li align="left" style="line-height: 20px;font-size: 11px;">
+        I hereby declare that I am fully responsible of the furniture and fixtures in the room allotted to and undertake to pay the damages to furniture and fixtures.
+      </li>
+    </ul>
+  </div>
+
+  <div style="margin-top: -15px;">
+    <table style="border:0px;">
+      <tr style="border:0px;">
+        <th style="width: 50%;text-align:left;font-size: 13px;padding: 5px;border: 0px;padding-top:15px;">Place: NITK Surathkal</th>
+      </tr>
+      <tr style="border:0px;">
+        <th style="width: 50%;text-align:left;font-size: 13px;padding: 5px;border: 0px;padding-top:15px;">Date: 03-03-2018</th>
+        <th style="width: 50%;font-size: 13px;text-align:right;padding: 5px;border: 0px;padding-top:15px;">Signature of the Applicant</th>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+
+<script type="text/javascript">
+    window.print();
+</script>
+
+
+
