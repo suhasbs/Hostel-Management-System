@@ -1,0 +1,652 @@
+1521487453328	geckodriver	INFO	geckodriver 0.20.0
+1521487453338	geckodriver	INFO	Listening on 127.0.0.1:37058
+1521487454368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4FGYLZ7gBNZN"
+1521487569623	geckodriver	INFO	geckodriver 0.20.0
+1521487569629	geckodriver	INFO	Listening on 127.0.0.1:56714
+1521487570647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4Pk8Hzh1hVLl"
+1521487573604	Marionette	INFO	Enabled via --marionette
+1521487584166	Marionette	INFO	Listening on port 40140
+1521487584268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521487635946	geckodriver	INFO	geckodriver 0.20.0
+1521487635960	geckodriver	INFO	Listening on 127.0.0.1:51027
+1521487636954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.27K5CftrUmkM"
+1521487639922	Marionette	INFO	Enabled via --marionette
+1521487645556	Marionette	INFO	Listening on port 44588
+1521487645620	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:15585): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f4df30864c0' of type 'MaiAtkType319'
+1521487649010	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521487650664	geckodriver::marionette	ERROR	Failed to stop browser process
+1521487676088	geckodriver	INFO	geckodriver 0.20.0
+1521487676096	geckodriver	INFO	Listening on 127.0.0.1:54419
+1521487677143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bG6bu6stdmWs"
+1521487679002	Marionette	INFO	Enabled via --marionette
+1521487683774	Marionette	INFO	Listening on port 43345
+1521487683786	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16032): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fb571cd5240' of type 'MaiAtkType139'
+
+(firefox:16032): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fb571cd5240' of type 'MaiAtkType139'
+
+(firefox:16032): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fb571cd5240' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521487707313	geckodriver::marionette	ERROR	Failed to stop browser process
+1521487789686	geckodriver	INFO	geckodriver 0.20.0
+1521487789699	geckodriver	INFO	Listening on 127.0.0.1:48058
+1521487790699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yynLiel5Nzzl"
+1521487792336	Marionette	INFO	Enabled via --marionette
+1521487796840	Marionette	INFO	Listening on port 35533
+1521487796928	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16425): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f66118e7920' of type 'MaiAtkType139'
+
+(firefox:16425): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f66118e7920' of type 'MaiAtkType139'
+
+(firefox:16425): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f66118e7920' of type 'MaiAtkType139'
+1521487798930	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521487800837	geckodriver::marionette	ERROR	Failed to stop browser process
+1521487876699	geckodriver	INFO	geckodriver 0.20.0
+1521487876706	geckodriver	INFO	Listening on 127.0.0.1:46857
+1521487877721	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EMjSMD39TDl5"
+1521487879092	Marionette	INFO	Enabled via --marionette
+1521487882580	Marionette	INFO	Listening on port 42887
+1521487882648	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16722): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f2782ef6420' of type 'MaiAtkType139'
+
+(firefox:16722): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f2782ef6420' of type 'MaiAtkType139'
+
+(firefox:16722): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f2782ef6420' of type 'MaiAtkType139'
+1521487884456	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521487885978	geckodriver::marionette	ERROR	Failed to stop browser process
+1521487931080	geckodriver	INFO	geckodriver 0.20.0
+1521487931088	geckodriver	INFO	Listening on 127.0.0.1:54339
+1521487932093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.d1SFiTIv0Huv"
+1521487933306	Marionette	INFO	Enabled via --marionette
+1521487937024	Marionette	INFO	Listening on port 34240
+1521487937126	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16967): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f46a5151b50' of type 'MaiAtkType139'
+
+(firefox:16967): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f46a5151b50' of type 'MaiAtkType139'
+
+(firefox:16967): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f46a5151b50' of type 'MaiAtkType139'
+1521487939402	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521487941003	geckodriver::marionette	ERROR	Failed to stop browser process
+1521487955127	geckodriver	INFO	geckodriver 0.20.0
+1521487955134	geckodriver	INFO	Listening on 127.0.0.1:42952
+1521487956142	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.B3XjLNa6wvD6"
+1521487957654	Marionette	INFO	Enabled via --marionette
+1521487961234	Marionette	INFO	Listening on port 44573
+1521487961274	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:17171): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f06b8119c40' of type 'MaiAtkType139'
+
+(firefox:17171): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f06b8119c40' of type 'MaiAtkType139'
+
+(firefox:17171): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f06b8119c40' of type 'MaiAtkType139'
+1521487963242	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521487965194	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488003538	geckodriver	INFO	geckodriver 0.20.0
+1521488003547	geckodriver	INFO	Listening on 127.0.0.1:59826
+1521488004551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Xd7j8CIRk0rT"
+1521488005990	Marionette	INFO	Enabled via --marionette
+1521488009394	Marionette	INFO	Listening on port 42756
+1521488009496	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521488009954	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488011948	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488107865	geckodriver	INFO	geckodriver 0.20.0
+1521488107872	geckodriver	INFO	Listening on 127.0.0.1:36839
+1521488108878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sZ3D8yf1Vpht"
+1521488110154	Marionette	INFO	Enabled via --marionette
+1521488113786	Marionette	INFO	Listening on port 37331
+1521488113824	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:17631): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f737ac84330' of type 'MaiAtkType139'
+
+(firefox:17631): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f737ac84330' of type 'MaiAtkType139'
+
+(firefox:17631): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f737ac84330' of type 'MaiAtkType139'
+1521488115764	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488117450	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488223879	geckodriver	INFO	geckodriver 0.20.0
+1521488223886	geckodriver	INFO	Listening on 127.0.0.1:52852
+1521488224893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MSfgNuzkCKRr"
+1521488228000	Marionette	INFO	Enabled via --marionette
+1521488232918	Marionette	INFO	Listening on port 39895
+1521488232938	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:18101): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fa06e96fd80' of type 'MaiAtkType139'
+
+(firefox:18101): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fa06e96fd80' of type 'MaiAtkType139'
+
+(firefox:18101): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fa06e96fd80' of type 'MaiAtkType139'
+1521488236444	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488238613	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488471134	geckodriver	INFO	geckodriver 0.20.0
+1521488471144	geckodriver	INFO	Listening on 127.0.0.1:41716
+1521488472168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EXzcLDATgy8s"
+1521488473684	Marionette	INFO	Enabled via --marionette
+1521488477516	Marionette	INFO	Listening on port 44359
+1521488477620	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521488482314	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488484132	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488507994	geckodriver	INFO	geckodriver 0.20.0
+1521488508001	geckodriver	INFO	Listening on 127.0.0.1:37331
+1521488509007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vG4990sg0agJ"
+1521488510514	Marionette	INFO	Enabled via --marionette
+1521488514234	Marionette	INFO	Listening on port 36254
+1521488514330	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:18680): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7ff556eb1470' of type 'MaiAtkType139'
+
+(firefox:18680): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7ff556eb1470' of type 'MaiAtkType139'
+
+(firefox:18680): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7ff556eb1470' of type 'MaiAtkType139'
+1521488516294	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488518252	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488560883	geckodriver	INFO	geckodriver 0.20.0
+1521488560890	geckodriver	INFO	Listening on 127.0.0.1:52764
+1521488561894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qZVeBpderngJ"
+1521488563318	Marionette	INFO	Enabled via --marionette
+1521488567332	Marionette	INFO	Listening on port 39944
+1521488567452	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:18900): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f201f454470' of type 'MaiAtkType139'
+
+(firefox:18900): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f201f454470' of type 'MaiAtkType139'
+
+(firefox:18900): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f201f454470' of type 'MaiAtkType139'
+1521488569346	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488571026	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488591412	geckodriver	INFO	geckodriver 0.20.0
+1521488591422	geckodriver	INFO	Listening on 127.0.0.1:58373
+1521488592410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.y95Iwn36QwrZ"
+1521488593626	Marionette	INFO	Enabled via --marionette
+1521488597926	Marionette	INFO	Listening on port 41219
+1521488597960	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:19102): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f3a9b01f7e0' of type 'MaiAtkType139'
+
+(firefox:19102): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f3a9b01f7e0' of type 'MaiAtkType139'
+
+(firefox:19102): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f3a9b01f7e0' of type 'MaiAtkType139'
+1521488599974	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488601687	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488614433	geckodriver	INFO	geckodriver 0.20.0
+1521488614444	geckodriver	INFO	Listening on 127.0.0.1:58743
+1521488615457	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nzXENxjLO1hY"
+1521488616692	Marionette	INFO	Enabled via --marionette
+1521488620224	Marionette	INFO	Listening on port 37809
+1521488620296	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:19301): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f2f07ceb240' of type 'MaiAtkType139'
+
+(firefox:19301): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f2f07ceb240' of type 'MaiAtkType139'
+
+(firefox:19301): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f2f07ceb240' of type 'MaiAtkType139'
+1521488622228	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488624253	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488710392	geckodriver	INFO	geckodriver 0.20.0
+1521488710399	geckodriver	INFO	Listening on 127.0.0.1:50900
+1521488711403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rb0YUzKgMCqP"
+1521488712680	Marionette	INFO	Enabled via --marionette
+1521488716052	Marionette	INFO	Listening on port 37859
+1521488716134	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488719788	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488735290	geckodriver	INFO	geckodriver 0.20.0
+1521488735297	geckodriver	INFO	Listening on 127.0.0.1:43640
+1521488736301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GAInbXkqc7pe"
+1521488737608	Marionette	INFO	Enabled via --marionette
+1521488741502	Marionette	INFO	Listening on port 45566
+1521488741536	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521488743546	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x47000F,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x510027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488744886	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488833325	geckodriver	INFO	geckodriver 0.20.0
+1521488833333	geckodriver	INFO	Listening on 127.0.0.1:51057
+1521488834339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qrH9VDT5J34h"
+1521488835600	Marionette	INFO	Enabled via --marionette
+1521488839266	Marionette	INFO	Listening on port 35457
+1521488839362	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:19995): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f01eef39060' of type 'MaiAtkType139'
+
+(firefox:19995): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f01eef39060' of type 'MaiAtkType139'
+
+(firefox:19995): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f01eef39060' of type 'MaiAtkType139'
+
+(firefox:19995): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f01eef39060' of type 'MaiAtkType139'
+
+(firefox:19995): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f01eef39060' of type 'MaiAtkType139'
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521488843696	geckodriver::marionette	ERROR	Failed to stop browser process
+1521488886229	geckodriver	INFO	geckodriver 0.20.0
+1521488886237	geckodriver	INFO	Listening on 127.0.0.1:41855
+1521488887242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ws9sFzAMLbbe"
+1521488888536	Marionette	INFO	Enabled via --marionette
+1521488891920	Marionette	INFO	Listening on port 35698
+1521488891984	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe2982fefb0' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe2982fefb0' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe2982fefb0' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe2982fefb0' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe2982fefb0' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe2a1282ab0' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe2a1403b50' of type 'MaiAtkType139'
+
+(firefox:20205): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe29b744740' of type 'MaiAtkType139'
+1521488936513	geckodriver	INFO	geckodriver 0.20.0
+1521488936520	geckodriver	INFO	Listening on 127.0.0.1:41078
+1521488937542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gd28jceVvS3G"
+1521488938848	Marionette	INFO	Enabled via --marionette
+1521488944014	Marionette	INFO	Listening on port 35095
+1521488944096	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6a2c790' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6a2c790' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6a2c790' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6a2c790' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6a2c790' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6a2c790' of type 'MaiAtkType139'
+1521488988500	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1521488988502	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1521488988510	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521488988510	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6bc9100' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'load_complete' is invalid for instance '0x7fc1db4fca10' of type 'MaiAtkType1'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'load_complete' is invalid for instance '0x7fc1e0739060' of type 'MaiAtkType1'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1dca41ec0' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1e2da91a0' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1d6c86f10' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1db47c7e0' of type 'MaiAtkType139'
+
+(firefox:20417): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc1db47c7e0' of type 'MaiAtkType139'
+1521489559239	geckodriver	INFO	geckodriver 0.20.0
+1521489559249	geckodriver	INFO	Listening on 127.0.0.1:50402
+1521489560270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PZyQYjpBtmye"
+1521489562696	Marionette	INFO	Enabled via --marionette
+1521489566694	Marionette	INFO	Listening on port 34279
+1521489566720	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:21279): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f4768df3650' of type 'MaiAtkType139'
+1521490274357	geckodriver	INFO	geckodriver 0.20.0
+1521490274434	geckodriver	INFO	Listening on 127.0.0.1:40311
+1521490275324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.T2E1akThKS5X"
+1521490283126	Marionette	INFO	Enabled via --marionette
+1521490294982	Marionette	INFO	Listening on port 44450
+1521490295344	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490323994	geckodriver	INFO	geckodriver 0.20.0
+1521490324002	geckodriver	INFO	Listening on 127.0.0.1:35142
+1521490325036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7nmISPX6se2p"
+1521490327416	Marionette	INFO	Enabled via --marionette
+1521490331948	Marionette	INFO	Listening on port 36887
+1521490332000	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20417, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-NJKMFd/firefox-59.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1521490447861	geckodriver	INFO	geckodriver 0.20.0
+1521490447871	geckodriver	INFO	Listening on 127.0.0.1:52479
+1521490448869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Hp8HVYXkJFYI"
+1521490451016	Marionette	INFO	Enabled via --marionette
+1521490454842	Marionette	INFO	Listening on port 45215
+1521490454916	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521490495953	geckodriver	INFO	geckodriver 0.20.0
+1521490495960	geckodriver	INFO	Listening on 127.0.0.1:38037
+1521490496972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uWccmMa9K9A5"
+1521490498276	Marionette	INFO	Enabled via --marionette
+1521490501922	Marionette	INFO	Listening on port 46570
+1521490501998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521490509473	geckodriver	INFO	geckodriver 0.20.0
+1521490509487	geckodriver	INFO	Listening on 127.0.0.1:43798
+1521490510486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PDLJTV0gd4AW"
+1521490511818	Marionette	INFO	Enabled via --marionette
+1521490519470	Marionette	INFO	Listening on port 41143
+1521490519560	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521490534598	geckodriver	INFO	geckodriver 0.20.0
+1521490534606	geckodriver	INFO	Listening on 127.0.0.1:47616
+1521490535615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8vfMP9a2Ytdr"
+1521490536924	Marionette	INFO	Enabled via --marionette
+1521490542760	Marionette	INFO	Listening on port 38473
+1521490542860	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521490553869	geckodriver	INFO	geckodriver 0.20.0
+1521490553908	geckodriver	INFO	Listening on 127.0.0.1:47179
+1521490554915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.W5EWToPF762c"
+1521490557010	Marionette	INFO	Enabled via --marionette
+1521490566354	Marionette	INFO	Listening on port 44400
+1521490566400	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490609318	geckodriver	INFO	geckodriver 0.20.0
+1521490609327	geckodriver	INFO	Listening on 127.0.0.1:51038
+1521490610344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lIK4nMkZ9W0o"
+1521490612322	Marionette	INFO	Enabled via --marionette
+1521490617482	Marionette	INFO	Listening on port 42607
+1521490617576	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:23470): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f5f100452e0' of type 'MaiAtkType139'
+
+(firefox:23470): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f5f100452e0' of type 'MaiAtkType139'
+
+(firefox:23470): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f5f100452e0' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490628598	geckodriver::marionette	ERROR	Failed to stop browser process
+1521490628833	geckodriver	INFO	geckodriver 0.20.0
+1521490628846	geckodriver	INFO	Listening on 127.0.0.1:49921
+1521490629854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rSw60aSzw7MV"
+1521490631142	Marionette	INFO	Enabled via --marionette
+1521490634624	Marionette	INFO	Listening on port 44913
+1521490634686	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:23665): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1eb750e100' of type 'MaiAtkType139'
+
+(firefox:23665): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1eb750e100' of type 'MaiAtkType139'
+
+(firefox:23665): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1eb750e100' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490641652	geckodriver::marionette	ERROR	Failed to stop browser process
+1521490714777	geckodriver	INFO	geckodriver 0.20.0
+1521490714784	geckodriver	INFO	Listening on 127.0.0.1:51792
+1521490715791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mjGl5AxJpHNd"
+1521490717022	Marionette	INFO	Enabled via --marionette
+1521490720424	Marionette	INFO	Listening on port 40200
+1521490720514	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:23914): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1ad7da1740' of type 'MaiAtkType139'
+
+(firefox:23914): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1ad7da1740' of type 'MaiAtkType139'
+
+(firefox:23914): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1ad7da1740' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490728835	geckodriver::marionette	ERROR	Failed to stop browser process
+1521490729303	geckodriver	INFO	geckodriver 0.20.0
+1521490729315	geckodriver	INFO	Listening on 127.0.0.1:46260
+1521490730331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GNT0eALeFuBt"
+1521490731776	Marionette	INFO	Enabled via --marionette
+1521490736466	Marionette	INFO	Listening on port 42265
+1521490736560	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24084): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f8d0db50ab0' of type 'MaiAtkType139'
+
+(firefox:24084): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f8d0db50ab0' of type 'MaiAtkType139'
+
+(firefox:24084): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f8d0db50ab0' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490743170	geckodriver::marionette	ERROR	Failed to stop browser process
+1521490743321	geckodriver	INFO	geckodriver 0.20.0
+1521490743332	geckodriver	INFO	Listening on 127.0.0.1:53994
+1521490744335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2Pr3AGIhBkKj"
+1521490745634	Marionette	INFO	Enabled via --marionette
+1521490749186	Marionette	INFO	Listening on port 37592
+1521490749278	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24254): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe55bc21a10' of type 'MaiAtkType139'
+
+(firefox:24254): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe55bc21a10' of type 'MaiAtkType139'
+
+(firefox:24254): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe55bc21a10' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490756860	geckodriver::marionette	ERROR	Failed to stop browser process
+1521490757343	geckodriver	INFO	geckodriver 0.20.0
+1521490757356	geckodriver	INFO	Listening on 127.0.0.1:42776
+1521490758356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.cscdEZ4ZEdmE"
+1521490759582	Marionette	INFO	Enabled via --marionette
+1521490763344	Marionette	INFO	Listening on port 45461
+1521490763394	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24423): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f11a6ba1330' of type 'MaiAtkType139'
+
+(firefox:24423): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f11a6ba1330' of type 'MaiAtkType139'
+
+(firefox:24423): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f11a6ba1330' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521490772569	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491068680	geckodriver	INFO	geckodriver 0.20.0
+1521491068688	geckodriver	INFO	Listening on 127.0.0.1:33629
+1521491069725	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.j7JI4yRAdHe6"
+1521491070948	Marionette	INFO	Enabled via --marionette
+1521491074310	Marionette	INFO	Listening on port 44476
+1521491074366	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491084796	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491085202	geckodriver	INFO	geckodriver 0.20.0
+1521491085215	geckodriver	INFO	Listening on 127.0.0.1:50723
+1521491086216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3OT99mdl90NM"
+1521491087498	Marionette	INFO	Enabled via --marionette
+1521491090828	Marionette	INFO	Listening on port 38882
+1521491090846	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:25034): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe7dac2fa60' of type 'MaiAtkType139'
+
+(firefox:25034): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe7dac2fa60' of type 'MaiAtkType139'
+
+(firefox:25034): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe7dac2fa60' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491098748	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491099225	geckodriver	INFO	geckodriver 0.20.0
+1521491099238	geckodriver	INFO	Listening on 127.0.0.1:56000
+1521491100253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.UTHSyoAsBdmw"
+1521491101484	Marionette	INFO	Enabled via --marionette
+1521491105096	Marionette	INFO	Listening on port 38787
+1521491105180	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:25207): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f298ab72970' of type 'MaiAtkType139'
+
+(firefox:25207): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f298ab72970' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491112809	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491113247	geckodriver	INFO	geckodriver 0.20.0
+1521491113260	geckodriver	INFO	Listening on 127.0.0.1:37642
+1521491114258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.E8zgQypWuxtE"
+1521491115484	Marionette	INFO	Enabled via --marionette
+1521491118920	Marionette	INFO	Listening on port 35479
+1521491118982	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:25377): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fab4c3ddf10' of type 'MaiAtkType139'
+
+(firefox:25377): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fab4c3ddf10' of type 'MaiAtkType139'
+
+(firefox:25377): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fab4c3ddf10' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491131433	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491207091	geckodriver	INFO	geckodriver 0.20.0
+1521491207098	geckodriver	INFO	Listening on 127.0.0.1:54050
+1521491208105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LMZZvaKxc3vs"
+1521491209362	Marionette	INFO	Enabled via --marionette
+1521491212922	Marionette	INFO	Listening on port 36224
+1521491212954	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491227608	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491263721	geckodriver	INFO	geckodriver 0.20.0
+1521491263729	geckodriver	INFO	Listening on 127.0.0.1:35622
+1521491264734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Je1zsS3wKcEf"
+1521491266164	Marionette	INFO	Enabled via --marionette
+1521491269464	Marionette	INFO	Listening on port 45095
+1521491269592	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491283012	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491292005	geckodriver	INFO	geckodriver 0.20.0
+1521491292013	geckodriver	INFO	Listening on 127.0.0.1:40151
+1521491293014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nvFEwJmnWHGf"
+1521491294368	Marionette	INFO	Enabled via --marionette
+1521491298184	Marionette	INFO	Listening on port 43133
+1521491298288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521491331036	geckodriver	INFO	geckodriver 0.20.0
+1521491331044	geckodriver	INFO	Listening on 127.0.0.1:56425
+1521491332058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9EazMnAyg4BH"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491333760	Marionette	INFO	Enabled via --marionette
+1521491338006	Marionette	INFO	Listening on port 42291
+1521491338086	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:26368): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f29f98c16f0' of type 'MaiAtkType139'
+
+(firefox:26368): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f29fd65a6a0' of type 'MaiAtkType139'
+
+(firefox:26368): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f29fd65a790' of type 'MaiAtkType13b'
+
+(firefox:26368): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f29fd65a6a0' of type 'MaiAtkType139'
+1521491384308	geckodriver	INFO	geckodriver 0.20.0
+1521491384321	geckodriver	INFO	Listening on 127.0.0.1:34300
+1521491385322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KYw2yebQitTo"
+1521491386644	Marionette	INFO	Enabled via --marionette
+1521491390038	Marionette	INFO	Listening on port 39104
+1521491390052	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491444873	geckodriver	INFO	geckodriver 0.20.0
+1521491444881	geckodriver	INFO	Listening on 127.0.0.1:39378
+1521491445888	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZROT1G6021zK"
+1521491447208	Marionette	INFO	Enabled via --marionette
+1521491450752	Marionette	INFO	Listening on port 46171
+1521491450820	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:26956): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f687b6fce70' of type 'MaiAtkType139'
+
+(firefox:26956): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f687b6fce70' of type 'MaiAtkType139'
+
+(firefox:26956): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f687b6fce70' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491463015	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491463402	geckodriver	INFO	geckodriver 0.20.0
+1521491463414	geckodriver	INFO	Listening on 127.0.0.1:32924
+1521491464413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dF7HKN5DGuGS"
+1521491465668	Marionette	INFO	Enabled via --marionette
+1521491469166	Marionette	INFO	Listening on port 38433
+1521491469260	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:27130): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fef72c34100' of type 'MaiAtkType139'
+
+(firefox:27130): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fef72c34100' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491478366	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491478932	geckodriver	INFO	geckodriver 0.20.0
+1521491478944	geckodriver	INFO	Listening on 127.0.0.1:37354
+1521491479945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Z7WgV3k0Asi8"
+1521491481204	Marionette	INFO	Enabled via --marionette
+1521491484540	Marionette	INFO	Listening on port 39995
+1521491484578	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:27297): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f6712102b00' of type 'MaiAtkType139'
+
+(firefox:27297): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f6712102b00' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521491493722	geckodriver::marionette	ERROR	Failed to stop browser process
+1521491493955	geckodriver	INFO	geckodriver 0.20.0
+1521491493967	geckodriver	INFO	Listening on 127.0.0.1:42298
+1521491494968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BRtWNzCl3Dun"
+1521491496188	Marionette	INFO	Enabled via --marionette
+1521491499520	Marionette	INFO	Listening on port 43029
+1521491499596	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:27469): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f7d3814cc40' of type 'MaiAtkType139'
+
+(firefox:27469): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f7d3814cc40' of type 'MaiAtkType139'
+
+(firefox:27469): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f7d3814cc40' of type 'MaiAtkType139'
+1521491565654	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1521491565660	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
