@@ -1,2 +1,3 @@
 HMSWebsite/dashboard
 *.pyc
+HMSWebsite/geckodriver.log

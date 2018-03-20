@@ -32,9 +32,7 @@ class LoginTestCase(LiveServerTestCase):
         print submit
         username.send_keys('suhas')
         password.send_keys('suhas1234')
-        submit.send_keys(Keys.RETURN)
-        # print selenium.page_source
-        time.sleep(1)
+        submit.click()
         assert 'Wrong Login Credentials!' in selenium.page_source
 
         # username.send_keys('suhas')
@@ -65,7 +63,7 @@ class LoginTestCase2(LiveServerTestCase):
         print submit
         username.send_keys('')
         password.send_keys('suhas1234')
-        submit.send_keys(Keys.RETURN)
+        submit.click()
         # print selenium.page_source
         time.sleep(1)
         assert 'Wrong Login Credentials!' in selenium.page_source
@@ -93,7 +91,7 @@ class LoginTestCase3(LiveServerTestCase):
         print submit
         username.send_keys('')
         password.send_keys('suhas123')
-        submit.send_keys(Keys.RETURN)
+        submit.click()
         # print selenium.page_source
         time.sleep(1)
         assert 'Wrong Login Credentials!' in selenium.page_source
@@ -122,8 +120,8 @@ class LoginTestCase4(LiveServerTestCase):
         print submit
         username.send_keys('suhas')
         password.send_keys('suhas123')
-        submit.send_keys(Keys.RETURN)
+        submit.click()
         # print selenium.page_source
-        time.sleep(10)
-        print selenium.page_source
+        # time.sleep(10)
+        # print selenium.page_source
         assert 'Dashboard' in selenium.page_source
