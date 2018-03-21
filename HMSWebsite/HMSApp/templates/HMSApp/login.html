@@ -1,6 +1,7 @@
 
 
 {% block content %}
+{% load staticfiles %}
 <!-- 
 	<form action="" method="post">
 {% csrf_token %}
@@ -108,7 +109,7 @@ body {
 
 <div class="login-page">
   <center>
-  <img src="https://cdn.iris.nitk.ac.in/logo.png" height="100">
+  <img src="{% static 'HMSApp/assets/images/nitk-logo.png' %}" height="100">
   <h1>NITK Hostel Management System</h1></center>
 	<center><p style="color: red"> {{ error_msg }}</p></center>
   <div class="form">
